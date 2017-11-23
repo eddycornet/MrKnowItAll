@@ -1,0 +1,20 @@
+{
+  "name": "MrKnowItAll",
+  "scripts": {
+  },
+  "env": {
+    "TIMES": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
